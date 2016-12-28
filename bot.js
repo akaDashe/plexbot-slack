@@ -11,7 +11,7 @@ if (!process.env.SLACK_TOKEN) {
 //get BotKit to spawn bot
 var Botkit = require('botkit'),
     redisConfig = {
-      url: process.env.REDIS_URL,
+      url: process.env.REDISCLOUD_URL,
       methods: ['awards']
     }
     redisStorage = require('botkit-storage-redis')(redisConfig);
