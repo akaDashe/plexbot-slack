@@ -1,7 +1,7 @@
 {
-    "name": "botkit-heroku-redis-example",
+    "name": "plexbot-slack",
     "version": "0.0.1",
-    "description": "Demonstrates how to use botkit with Redis storage on Heroku.",
+    "description": "A Slack Bot for Plex",
     "main": "bot.js",
     "scripts": {
         "start": "node bot.js"
@@ -16,8 +16,8 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/horimislime/botkit-heroku-redis-example.git"
+        "url": "https://github.com/akaDashe/plexbot-slack.git"
     },
-    "author": "horimislime@gmail.com",
+    "author": "akaDashe@gmail.com",
     "license": "MIT"
 }
