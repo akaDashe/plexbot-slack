@@ -9,10 +9,16 @@ if (!process.env.SLACK_TOKEN) {
 }
 
 //get BotKit to spawn bot
-var Botkit = require('botkit');
+var Botkit = require('botkit'),
+    redisConfig = {
+      url: process.env.REDIS_URL,
+      methods: ['awards']
+    }
+    redisStorage = require('botkit-storage-redis')(redisConfig);
 var controller = Botkit.slackbot({
  debug: false
 });
+
 var bot = controller.spawn({
   token: process.env.SLACK_TOKEN
 });
