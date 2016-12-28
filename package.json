@@ -1,23 +1,17 @@
 {
-    "name": "plexbot-slack",
-    "version": "0.0.1",
-    "description": "A Slack Bot for Plex",
-    "main": "bot.js",
-    "scripts": {
-        "start": "node bot.js"
-    },
-    "dependencies": {
-        "botkit": "howdyai/botkit",
-        "redis": "2.4.2"
-    },
-    "devDependencies": {
-        "node-notifier": "4.4.0",
-        "gulp": "3.9.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/akaDashe/plexbot-slack.git"
-    },
-    "author": "akaDashe@gmail.com",
-    "license": "MIT"
+  "name": "chatbot_for_slack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "botkit": "^0.2.0"
+  },
+  "engines": {
+    "node": "5.10.1"
+  }
 }
