@@ -15,7 +15,9 @@ var Botkit = require('botkit'),
       methods: ['awards']
     }
     redisStorage = require('botkit-storage-redis')(redisConfig);
+
 var controller = Botkit.slackbot({
+    storage: redisStorage,
  debug: false
 });
 
